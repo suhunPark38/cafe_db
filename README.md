@@ -2,6 +2,8 @@
 
 ## 실행 방법: server.js 실행하고 npm start
 
+## 초기 설정: server.js에 user, password, database 본인 것 작성, npm install 하기
+
 ## 깃허브 주소: https://github.com/suhunPark38/cafe_db.git
 
 ## 깃 클론: `git clone https://github.com/suhunPark38/cafe_db.git`

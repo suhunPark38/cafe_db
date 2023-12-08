@@ -13,9 +13,9 @@ const mysql = require('mysql2'); // MySQL 라이브러리 로드
 // MySQL 연결 설정
 const pool = mysql.createPool({
     host: 'localhost',
-    user: 'root', //본인 mysql 아이디로 바꿔줘야함
-    password: 'qkrtngns0308', //본인 mysql 비번으로 바꿔줘야함
-    database: 'cafedb', //본인 db 이름으로 바꿔줘야함
+    user: '', //본인 mysql 아이디로 바꿔줘야함
+    password: '', //본인 mysql 비번으로 바꿔줘야함
+    database: '', //본인 db 이름으로 바꿔줘야함
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0
